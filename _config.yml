@@ -17,7 +17,7 @@ markdown_ext: md
 
 name: STRING DB GGP corpus documentation
 homeurl: "https://spyysalo.github.io/stringdb-ggp-corpus-docs/"
-editurl: "https://github.com/spyysalo/stringdb-ggp-corpus-docs/edit/master"
+editurl: "https://github.com/spyysalo/stringdb-ggp-corpus-docs/edit/main"
 issueurl: "https://github.com/spyysalo/stringdb-ggp-corpus-docs/issues"
 
 ##############################################################################
