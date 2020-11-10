@@ -1,0 +1,29 @@
+# Build settings
+
+source: .
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalinks: pretty
+safe: true
+markdown_ext: md
+
+##############################################################################
+
+# Site settings
+
+name: STRING DB GGP corpus documentation
+homeurl: "https://spyysalo.github.io/stringdb-ggp-corpus-docs/"
+editurl: "https://github.com/spyysalo/stringdb-ggp-corpus-docs/edit/master"
+issueurl: "https://github.com/spyysalo/stringdb-ggp-corpus-docs/issues"
+
+##############################################################################
+
+# Collection settings
+
+collections:
+  entity:
+    output: true
