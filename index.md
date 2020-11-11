@@ -15,11 +15,29 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 * No title-only documents
 * 50% of mentions need to be forms that have not been seen in abstracts selected so far (case-insensitive)
 
-### General annotation guidelines
+---
 
-* Peptide hormones which is encoded by a GGP and processed into mature form, e.g. angiotensin: GGP? Chemical? OOS?
+### Open issues
+
 * GGPs which is usually working/active as homodimer, e.g. IFN-gamma: GGP? Complex? or decide context dependent?
 * Families of Complexes
+
+---
+
+### Ambiguities
+
+This section documents the guidelines for specific ambiguities between different annotations.
+
+#### GGP vs. Chemical / Out-of-scope
+
+[Peptides](https://en.wikipedia.org/wiki/Peptide) -- short chains of amino acids -- are not considered proteins in the annotation and thus not annotated as `GGP`. 
+
+**References**:
+
+[CHEBI:25676 - oligopeptide](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI%3A25676)
+: A peptide containing a relatively small number of amino acids. [...] consists of two to twenty amino acids
+
+---
 
 ### Individual cases
 
