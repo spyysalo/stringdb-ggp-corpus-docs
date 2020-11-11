@@ -15,6 +15,11 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 * No title-only documents
 * 50% of mentions need to be forms that have not been seen in abstracts selected so far (case-insensitive)
 
+### general annotation guidelines
+
+* Peptide hormones which is encoded by a GGP and processed into mature form, e.g. angiotensin: GGP? Chemical? OOS?
+* GGPs which is usually working/active as homodimer, e.g. IFN-gamma: GGP? Complex? or decide context dependent?
+
 ## Links
 
 For information on Annodoc, see <http://spyysalo.github.io/annodoc/>.
