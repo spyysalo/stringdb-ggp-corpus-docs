@@ -19,6 +19,7 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 * Peptide hormones which is encoded by a GGP and processed into mature form, e.g. angiotensin: GGP? Chemical? OOS?
 * GGPs which is usually working/active as homodimer, e.g. IFN-gamma: GGP? Complex? or decide context dependent?
+* Families of Complexes
 
 ## Links
 
