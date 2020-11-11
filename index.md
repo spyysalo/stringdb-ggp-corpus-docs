@@ -7,7 +7,7 @@ title: Documentation for STRING DB GGP annotation
 
 ### Abstract sample 01
 
-A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP matches to mentioned tagged by a BioBERT model trained on the BC2GM corpus and selecting a random subset filling the following criteria:
+A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP matches to mentiones tagged by a BioBERT model trained on the BC2GM corpus and selecting a random subset filling the following criteria:
 
 * Number of unique tagged names (ignoring case) > 1
 * Annotations / 100 words >= 1
