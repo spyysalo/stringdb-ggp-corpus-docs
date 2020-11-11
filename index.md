@@ -55,6 +55,11 @@ G proteins
 angiotensin II
 : `Out of scope` (Chemical: <https://pubchem.ncbi.nlm.nih.gov/compound/172198>, cleavage product of [Angiotensinogen](https://www.uniprot.org/uniprot/P01019))
 
+* Histones:
+  * Tag __H3__ etc. as `GGP` also when they appear standalone
+  * Include __histone__ in the span when it appears with one of the names (e.g. _histone H3_)
+  * Tag __histone__ as `Family` when it appears standalone.
+  * discontinuous or decomposed `GGP` for mentions such as __histones H2A and H3__.
 
 ## Links
 
