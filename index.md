@@ -15,11 +15,23 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 * No title-only documents
 * 50% of mentions need to be forms that have not been seen in abstracts selected so far (case-insensitive)
 
-### general annotation guidelines
+### General annotation guidelines
 
 * Peptide hormones which is encoded by a GGP and processed into mature form, e.g. angiotensin: GGP? Chemical? OOS?
 * GGPs which is usually working/active as homodimer, e.g. IFN-gamma: GGP? Complex? or decide context dependent?
 * Families of Complexes
+
+### Individual cases
+
+NF-κB
+: `Complex` (<http://amigo.geneontology.org/amigo/term/GO:0071159>)
+
+G proteins
+: `Family`
+
+angiotensin II
+: `Out of scope` (Chemical: <https://pubchem.ncbi.nlm.nih.gov/compound/172198>, cleavage product of [Angiotensinogen](https://www.uniprot.org/uniprot/P01019))
+
 
 ## Links
 
