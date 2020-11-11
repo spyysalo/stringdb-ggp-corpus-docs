@@ -28,9 +28,14 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 This section documents the guidelines for specific ambiguities between different annotations.
 
-#### GGP vs. Chemical / Out-of-scope
+#### Peptides
 
 [Peptides](https://en.wikipedia.org/wiki/Peptide) -- short chains of amino acids -- are not considered proteins in the annotation and thus not annotated as `GGP`. 
+
+**Examples**:
+
+* bradykinin: [CHEBI:3165](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165), [PubChem:439201](https://pubchem.ncbi.nlm.nih.gov/compound/439201)
+* angiotensin II: [CHEBI:48432](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48432), [PubChem:172198](https://pubchem.ncbi.nlm.nih.gov/compound/172198)
 
 **References**:
 
