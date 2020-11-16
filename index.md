@@ -26,7 +26,7 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 ### Ambiguities
 
-This section documents the guidelines for specific ambiguities between different annotations.
+This section documents the guidelines for specific ambiguities in annotation.
 
 #### Peptide hormones
 
