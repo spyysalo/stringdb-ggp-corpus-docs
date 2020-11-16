@@ -28,17 +28,18 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 This section documents the guidelines for specific ambiguities in annotation.
 
-#### Peptide hormones
+#### Peptide hormones and neurotransmitters
 
-[Peptide hormones](https://en.wikipedia.org/wiki/Peptide_hormone) are annotated with reference to established community resources such as ChEBI (see e.g. <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25905>). Whether the mention of a peptide hormone name should be annotated as `GGP` or falls out of scope as a chemical is resolved as follows:
+[Peptide hormones](https://en.wikipedia.org/wiki/Peptide_hormone) and peptide neurotransmitters are annotated with reference to established community resources such as ChEBI (see e.g. [CHEBI:25905](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25905), and [CHEBI:25512](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25512)). Whether the mention of a peptide hormone or neurotransmitter name should be annotated as `GGP` or falls out of scope as a chemical is resolved as follows:
 
-* **Gene/protein names are annotated as `GGP`**. If the active form of a peptide hormone has the same name as a gene or protein, it is annotated as `GGP`. For example, [_insulin_](https://www.uniprot.org/uniprot/P01308) and [_ghrelin_](https://www.uniprot.org/uniprot/Q9UBU3) are annotated as `GGP`. 
-* In cases where the active (e.g. cleaved) form of a peptide hormone has a different name (e.g. [_angiotensin I_](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2718) vs. [_angiotensinogen_](https://www.uniprot.org/uniprot/P01019), [_bradykinin_](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165) vs. [_kininogen-1_](https://www.uniprot.org/uniprot/P01042)), the name of the peptide hormone is annotated as `OOS` with comment "peptide hormone".
+* **Gene/protein names are annotated as `GGP`**. If the active form of a peptide hormone or neurotransmitter has the same name as a gene or protein, it is annotated as `GGP`. For example, [_insulin_](https://www.uniprot.org/uniprot/P01308) and [_ghrelin_](https://www.uniprot.org/uniprot/Q9UBU3) are annotated as `GGP`. 
+* In cases where the active (e.g. cleaved) form of a peptide hormone or neurotransmitter has a different name (e.g. [_angiotensin I_](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2718) vs. [_angiotensinogen_](https://www.uniprot.org/uniprot/P01019), [_bradykinin_](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165) vs. [_kininogen-1_](https://www.uniprot.org/uniprot/P01042)), the name of the peptide hormone or neurotransmitter is annotated as `OOS` with comment "peptide hormone" or "neurotransmitter" (respectively).
 
 **Examples**:
 
 * bradykinin (`OOS`): [CHEBI:3165](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165), [PubChem:439201](https://pubchem.ncbi.nlm.nih.gov/compound/439201)
 * angiotensin II (`OOS`): [CHEBI:48432](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48432), [PubChem:172198](https://pubchem.ncbi.nlm.nih.gov/compound/172198)
+* substance P (`OOS`): [CHEBI:80308](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:80308), [PubChem:36511](https://pubchem.ncbi.nlm.nih.gov/compound/Substance-P)
 
 **References**:
 
