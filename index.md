@@ -28,14 +28,17 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 This section documents the guidelines for specific ambiguities between different annotations.
 
-#### Peptides
+#### Peptide hormones
 
-[Peptides](https://en.wikipedia.org/wiki/Peptide) -- short chains of amino acids -- are not considered proteins in the annotation and thus not annotated as `GGP`. 
+[Peptide hormones](https://en.wikipedia.org/wiki/Peptide_hormone) are annotated with reference to established community resources such as ChEBI (see e.g. <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25905>). Whether the mention of a peptide hormone name should be annotated as `GGP` or falls out of scope as a chemical is resolved as follows:
+
+* **Gene/protein names are annotated as `GGP`**. If the active form of a peptide hormone has the same name as a gene or protein, it is annotated as `GGP`. For example, [_insulin_](https://www.uniprot.org/uniprot/P01308) and [_ghrelin_](https://www.uniprot.org/uniprot/Q9UBU3) are annotated as `GGP`. 
+* In cases where the active (e.g. cleaved) form of a peptide hormone has a different name (e.g. [_angiotensin I_](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2718) vs. [_angiotensinogen_](https://www.uniprot.org/uniprot/P01019), [_bradykinin_](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165) vs. [_kininogen-1_](https://www.uniprot.org/uniprot/P01042)), the name of the peptide hormone is annotated as `OOS` with comment "peptide hormone".
 
 **Examples**:
 
-* bradykinin: [CHEBI:3165](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165), [PubChem:439201](https://pubchem.ncbi.nlm.nih.gov/compound/439201)
-* angiotensin II: [CHEBI:48432](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48432), [PubChem:172198](https://pubchem.ncbi.nlm.nih.gov/compound/172198)
+* bradykinin (`OOS`): [CHEBI:3165](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165), [PubChem:439201](https://pubchem.ncbi.nlm.nih.gov/compound/439201)
+* angiotensin II (`OOS`): [CHEBI:48432](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48432), [PubChem:172198](https://pubchem.ncbi.nlm.nih.gov/compound/172198)
 
 **References**:
 
