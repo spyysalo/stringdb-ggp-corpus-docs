@@ -70,7 +70,7 @@ This section documents the guidelines for specific ambiguities in annotation.
 * IL-14: GGP (https://www.uniprot.org/uniprot/P40222)
 * IL-15: GGP (https://www.uniprot.org/uniprot/P40933)
 * IL-16: GGP (https://www.uniprot.org/uniprot/Q14005)
-* IL-17: Family (pfam.xfam.org/family/IL17)
+* IL-17: Family (https://pfam.xfam.org/family/IL17)
 * IL-17A: GGP (https://www.uniprot.org/uniprot/Q16552)
 * IL-18: GGP (https://www.uniprot.org/uniprot/Q14116)
 * IL-19: GGP (https://www.uniprot.org/uniprot/Q9UHD0)
