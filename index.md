@@ -17,6 +17,10 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 ---
 
+### Documentation TODO
+
+* Chromosome loci (e.g. _18q21.3_) are not annotated
+
 ### Open issues
 
 * GGPs which is usually working/active as homodimer, e.g. IFN-gamma: GGP? Complex? or decide context dependent?
