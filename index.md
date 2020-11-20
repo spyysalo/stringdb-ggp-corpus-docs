@@ -136,6 +136,9 @@ G proteins
 growth factor
 : `Out of scope` (nonspecific: <https://en.wikipedia.org/wiki/Growth_factor>)
 
+Ras
+: `Family`
+
 * Histones:
   * Tag __H3__ etc. as `GGP` also when they appear standalone
   * Include __histone__ in the span when it appears with one of the names (e.g. _histone H3_)
