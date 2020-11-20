@@ -48,6 +48,32 @@ This section documents the guidelines for specific ambiguities in annotation.
 
 ---
 
+#### Enzymes
+
+We follow the specificity cutoffs of the BioCreative II Gene Mention corpus for deciding whether an enzyme mention should be annotated or not. The following should not be annotated when appearing standalone:
+
+* _kinase_, _protein kinase_
+* _polymerase_
+* _protease_
+
+By contrast, more specific enzyme names such as the following are annotated:
+
+* _tyrosine kinase_, _protein tyrosine kinase_: `Family` (http://pfam.xfam.org/family/PF07714)
+* _RNA polymerase_, _DNA polymerase_: `Family`
+* _serine protease_, _metalloprotease_: `Family`
+
+Other enzyme names such as the following are also annotated:
+
+* _amylase_, _helicase_, _ligase_, _lyase_, _methyltransferase_, _reverse transcriptase_, _telomerase_, _GTPase_, _ATPase_
+
+#### Cytokines
+
+We follow the specificity cutoffs of the BioCreative II Gene Mention corpus for deciding whether an enzyme mention should be annotated or not. The following should not be annotated when appearing standalone:
+
+* _cytokine_, _chemokine_
+
+---
+
 #### Interleukins
 
 [Interleukins](https://en.wikipedia.org/wiki/Interleukin) are a family whose members (IL-1, IL-2, etc.) include individual proteins, protein complexes, as well as subfamilies. Interleukins are annotated as follows:
