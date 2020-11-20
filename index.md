@@ -130,8 +130,8 @@ NF-κB
 G proteins
 : `Family`
 
-angiotensin II
-: `Out of scope` (Chemical: <https://pubchem.ncbi.nlm.nih.gov/compound/172198>, cleavage product of [Angiotensinogen](https://www.uniprot.org/uniprot/P01019))
+growth factor
+: `Out of scope` (nonspecific: <https://en.wikipedia.org/wiki/Growth_factor>)
 
 * Histones:
   * Tag __H3__ etc. as `GGP` also when they appear standalone
