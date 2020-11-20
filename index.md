@@ -50,17 +50,19 @@ This section documents the guidelines for specific ambiguities in annotation.
 
 #### Enzymes
 
-We follow the specificity cutoffs of the BioCreative II Gene Mention corpus for deciding whether an enzyme mention should be annotated or not. The following should not be annotated when appearing standalone:
+We follow the specificity cutoffs of the BioCreative II Gene Mention corpus for deciding whether an enzyme mention should be annotated or not. The following should **not** be annotated when appearing standalone:
 
 * _kinase_, _protein kinase_
 * _polymerase_
 * _protease_
+* _transferase_
 
 By contrast, more specific enzyme names such as the following are annotated:
 
 * _tyrosine kinase_, _protein tyrosine kinase_: `Family` (http://pfam.xfam.org/family/PF07714)
 * _RNA polymerase_, _DNA polymerase_: `Family`
 * _serine protease_, _metalloprotease_: `Family`
+* _alanine aminotransferase_: `Family`
 
 Other enzyme names such as the following are also annotated:
 
