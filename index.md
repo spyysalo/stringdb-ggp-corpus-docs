@@ -40,6 +40,7 @@ This section documents the guidelines for specific ambiguities in annotation.
 * bradykinin (`OOS`): [CHEBI:3165](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3165), [PubChem:439201](https://pubchem.ncbi.nlm.nih.gov/compound/439201)
 * angiotensin II (`OOS`): [CHEBI:48432](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48432), [PubChem:172198](https://pubchem.ncbi.nlm.nih.gov/compound/172198)
 * substance P (`OOS`): [CHEBI:80308](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:80308), [PubChem:36511](https://pubchem.ncbi.nlm.nih.gov/compound/Substance-P)
+* Orexin-A (`OOS`): [CHEBI:80319](https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:80319), [PubChem:56842143](https://pubchem.ncbi.nlm.nih.gov/compound/56842143)
 
 **References**:
 
