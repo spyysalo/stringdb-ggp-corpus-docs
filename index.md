@@ -143,6 +143,9 @@ growth factor
 Ras
 : `Family`
 
+VEGF
+: `Family` (includes [VEGF-A](https://www.uniprot.org/uniprot/P15692), [VEGF-B](https://www.uniprot.org/uniprot/P49765) and others)
+
 * Histones:
   * Tag __H3__ etc. as `GGP` also when they appear standalone
   * Include __histone__ in the span when it appears with one of the names (e.g. _histone H3_)
