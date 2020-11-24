@@ -146,6 +146,9 @@ Ras
 VEGF
 : `Family` (includes [VEGF-A](https://www.uniprot.org/uniprot/P15692), [VEGF-B](https://www.uniprot.org/uniprot/P49765) and others)
 
+MHC
+: `Complex` ([GO:0042611](http://amigo.geneontology.org/amigo/term/GO:0042611)); also MHC-I/MHC class I ([GO:0042612](http://amigo.geneontology.org/amigo/term/GO:0042612)) and MHC-II/MHC class II ([GO:0042613](http://amigo.geneontology.org/amigo/term/GO:0042613))
+
 * Histones:
   * Tag __H3__ etc. as `GGP` also when they appear standalone
   * Include __histone__ in the span when it appears with one of the names (e.g. _histone H3_)
