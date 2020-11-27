@@ -28,6 +28,35 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 ---
 
+### Annotation span
+
+For each mention of a GPP name, the annotation aims to mark **the minimal span containing the full name** of the entity mentioned in the text so that the marked span starts and ends on a boundary between an alphanumeric string and a non-alphanumeric character (e.g. space or hyphen). The following provides examples and guidelines for exceptional cases.
+
+Modifiers and head words that are not part of the name are **excluded** form the annotated span, for example (annotated span in bold)
+
+* _human **p53** gene_
+* _wild-type **p53**_
+* _phospho-**EGFR**_
+* _**p53** mutant_
+
+Annotation boundaries must coincide with the boundary between an alphanumeric and a non-alphanumeric character. In cases where a GGP name is written with one of the following regular affixes without such a boundary, the affix is **included** in the annotated span:
+
+* species identifier, e.g. _**h**_ for _human_ or _**m**_ for _mouse_
+* _**p**_ for _phosphorylated_
+* _**wt**_ for _wild-type_
+* _**si**_ for _small interfering RNA_
+* _**sh**_ for _small/short hairpin RNA_
+* _**anti**_ for _antibody_
+
+Thus, for example (annotated span in bold):
+
+* _the human gene **hEGP314**, and the murine gene **mEGP314**_
+* _**pHDAC1** (phosphor **histone deacetylase-1**)_
+* _wild-type **p53** (**wtp53**)_
+* _**shLRP1** knockdown_ [GGP name LRP1]
+* _**DNER** small interfering RNA (**siDNER**)_
+* _**Antifactor VIII** antibody_ [GGP name factor VIII]
+
 ### Ambiguities
 
 This section documents the guidelines for specific ambiguities in annotation.
