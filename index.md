@@ -32,14 +32,20 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 For each mention of a GPP name, the annotation aims to mark **the minimal span containing the full name** of the entity mentioned in the text so that the marked span starts and ends on a boundary between an alphanumeric string and a non-alphanumeric character (e.g. space or hyphen). The following provides examples and guidelines for exceptional cases.
 
-Modifiers and head words that are not part of the name are **excluded** form the annotated span, for example (annotated span in bold)
+Modifiers and head words that are not part of the name are **excluded** from the annotated span, for example (annotated span in bold)
 
 * _human **p53** gene_
 * _wild-type **p53**_
-* _phospho-**EGFR**_
+* _phosphorylated **EGFR**_
 * _**p53** mutant_
 
-Annotation boundaries must coincide with the boundary between an alphanumeric and a non-alphanumeric character. In cases where a GGP name is written with one of the following regular affixes without such a boundary, the affix is **included** in the annotated span:
+Affixes and markers such as allele designations using an asterisk are similarly **excluded** from the annotation span even when they are part of the same syntactic word with a GGP name as long as there is a separating nonalphanumeric character, for example (annotated span in bold):
+
+* _phospho-**EGFR**_
+* _anti-**CD40** antibody_
+* _**CYP2C9**\*5 allele_ [\*5 is excluded]
+
+However, annotation boundaries must coincide with the boundary between an alphanumeric and a non-alphanumeric character. In cases where a GGP name is written with one of the following regular affixes without such a boundary, the affix is **included** in the annotated span:
 
 * species identifier, e.g. _**h**_ for _human_ or _**m**_ for _mouse_
 * _**p**_ for _phosphorylated_
