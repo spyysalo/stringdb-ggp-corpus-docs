@@ -20,6 +20,7 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 ### Documentation TODO
 
 * Chromosome loci (e.g. _18q21.3_) are not annotated
+* Accession numbers are annotated
 
 ### Open issues
 
