@@ -21,6 +21,7 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 
 * Chromosome loci (e.g. _18q21.3_) are not annotated
 * Accession numbers are annotated
+* Engineered construct such as fusion proteins are not annotated; the annotation only targets products that occur naturally.
 
 ### Open issues
 
