@@ -22,6 +22,7 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 * Chromosome loci (e.g. _18q21.3_) are not annotated
 * Accession numbers are annotated
 * Engineered construct such as fusion proteins are not annotated; the annotation only targets products that occur naturally.
+* Isoforms such as VEGF165 and VEGF121 as well as splice isoforms of CD44 are annotated
 
 ### Open issues
 
