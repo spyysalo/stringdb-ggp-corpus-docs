@@ -23,6 +23,8 @@ A sample of 1000 PubMed abstracts selected by comparing JensenLab tagger GGP mat
 * Accession numbers are annotated
 * Engineered construct such as fusion proteins are not annotated; the annotation only targets products that occur naturally.
 * Isoforms such as VEGF165 and VEGF121 as well as splice isoforms of CD44 are annotated
+* "ORF[0-9]+" mentions are annotated as GGP if listed as synonyms in some reference resource (e.g. https://www.uniprot.org/uniprot/G3M191)
+* references to nonfunctional segments of DNA such as pseudogenes are not out of scope of the annotation
 
 ### Open issues
 
